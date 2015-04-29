@@ -9,6 +9,7 @@ Features
  * Works with webpack / browserify
  * Loads facebook SDK asynchronously (thanks to es6 Promises)
  * Shares configuration between server / client (means you can use environment variables)
+ * Comes with a "do whatever you want" (MIT) license
  * Doesn't load SDK on server side
 
 Install
