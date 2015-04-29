@@ -10,7 +10,6 @@ function facebookPlugin(options) {
         plugContext: function () {
             return {
                 plugComponentContext: function (componentContext) {
-                    console.log(options);
                     componentContext.getFacebookSdk = getSdk.bind(null, options);
                 }
             };
