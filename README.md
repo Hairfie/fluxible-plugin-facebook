@@ -35,6 +35,20 @@ app.plug(facebookplugin({
 Usage
 -----
 
+Add `getFacebookSdk` to the react's context :
+
+```
+
+Application = provideContext(Application, {
+
+    // ...
+    
+    getFacebookSdk: React.PropTypes.func
+    
+});
+
+```
+
 From a component :
 
 ```javascript
