@@ -1,0 +1,25 @@
+{
+  "name": "fluxible-plugin-facebook",
+  "version": "0.1.0",
+  "description": "Integrate the facebook SDK in your fluxible application",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Hairfie/fluxible-facebook-plugin.git"
+  },
+  "keywords": [
+    "fluxible",
+    "facebook"
+  ],
+  "author": "Antoine Hérault <antoine.herault@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Hairfie/fluxible-facebook-plugin/issues"
+  },
+  "homepage": "https://github.com/Hairfie/fluxible-facebook-plugin",
+  "dependencies": {
+    "debug": "^2.1.3",
+    "es6-promise": "^2.1.1"
+  }
+}
