@@ -25,7 +25,7 @@ Add it to your fluxible context :
 
 import facebookPlugin from 'fluxible-plugin-facebook';
 
-app.plug(facebookplugin({
+app.plug(facebookPlugin({
     /* https://developers.facebook.com/docs/javascript/reference/FB.init/v2.3 options */
     appId: 'xxx'
 }));
